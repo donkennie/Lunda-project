@@ -4,7 +4,16 @@
 
 @layer utilities {
     .button-text{
-        @apply border px-4 py-2 rounded text-[13px]
+        @apply border px-[22px] py-2 rounded text-[13px] 
+    }
+    .rounded-picture{
+        @apply rounded-se-[5rem] rounded-bl-[5rem] rounded w-[90%]
+    }
+    .flex-list{
+        @apply flex items-center gap-3
+    }
+    .normal-text{
+        @apply text-[#1E1E1E] font-[550] text-[15px]
     }
 }
 
@@ -25,15 +34,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
 }
 
-/* html, body {
+html, body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-} */
-
-body{
-    background-color: #301A00;
 }
