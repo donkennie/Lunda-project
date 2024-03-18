@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .button-text{
+        @apply border px-4 py-2 rounded text-[13px]
+    }
+}
+
+.sonsie-one-regular {
+    font-family: "Sonsie One", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .sora-all {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: #301A00;
+}

@@ -9,10 +9,7 @@ module.exports = {
       xl: '1440px'
     },
     extend: {
-      fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-      },
+      
     },
   },
   plugins: [],
