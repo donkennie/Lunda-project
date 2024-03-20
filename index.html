@@ -243,7 +243,7 @@
         </div>
     </section>
 
-    <section class="container pt-[100px] flex">
+    <section class="container pt-[100px] grid grid-flow-col ">
                 <img src="img/Rectangle 10 (1).png" alt=""  width="185vh" height="100%">
                 <img src="img/Rectangle 9 (1).png" alt="" width="185vh" height="100%">
                 <img src="img/Rectangle 11 (1).png" alt="" width="185vh" height="100%">
@@ -291,7 +291,7 @@
             <p class="normal-text pt-3">Dedicated to Excellence in Every Wash</p>
         </div>
 
-        <div class="container flex flex-row justify-between items-center mt-10">
+        <div class="container flex flex-wrap md:flex-nowrap gap-8 justify-between items-center mt-10">
            <div>
                <img src="img/image 6.png" alt="" class="rounded-md">
                <div class="flex flex-col gap-2 normal-text">
@@ -360,7 +360,7 @@
     </section>
 
     <section class="relative pt-[80px]">
-        <div class="grid grid-flow-col items-center justify-between normal-text"> 
+        <div class="grid md:grid-flow-col gap-4 sm:grid-flow-row items-center justify-between normal-text"> 
         <div class="flex flex-col gap-5 text-[#1E1E1E]">
             <p class=" text-start font-[730] text-4xl">
                 Get in Touch with Us for <br>
@@ -382,7 +382,7 @@
             </div>
 
         </div>
-        <div class="relative bg-cover  " style="background-image: url('/img//Rectangle\ 1\ \(4\).png'); width: 65vh;">
+        <div class="relative bg-cover  " style="background-image: url('/img//Rectangle\ 1\ \(4\).png');">  // width: 65vh;
             <div class="flex flex-col gap-2 items-center mt-7">
             <div class="">
                 <label class="text-white  font-[560] text-[11px]">Full Name</label>
@@ -422,7 +422,7 @@
 
     </section>
 
-    <section class="relative pt-[90px] flex flex-row items-center gap-32">
+    <section class="relative pt-[90px] sm:flex-row md:flex items-center gap-32">
         <div class="flex flex-col gap-4">
             <div class="text-2xl sonsie-one-regular">
                 Lunda
@@ -433,7 +433,7 @@
                 saving your time and effort.
             </p>
 
-            <div class="flex flex-row gap-4 cursor-pointer">
+            <div class="flex flex-row gap-4 cursor-pointer lg:m-1 mt-5">
                 <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="19" cy="19" r="19" fill="#FFEBD3"/>
                     <g clip-path="url(#clip0_47_437)">
@@ -468,22 +468,24 @@
                     
             </div>
         </div>
-            <div class="flex flex-col gap-3">
+        <div class="flex flex-row lg:gap-32 md:gap-20 gap-14 md-min:gap-32 mt-12">
+            <div class="">
                 <p class="font-bold">Features</p>
                 <p>Solutions</p>
                 <p>Laundry</p>
                 <p>Portfolio</p>
             </div>
-            <div class="flex flex-col gap-3">
+            <div class="">
                 <p class="font-bold">Company</p>
                 <p>About</p>
                 <p>Contact Us</p>
             </div>
-            <div class="flex flex-col gap-3">
+            <div class="">
                 <p class="font-bold">Legal</p>
                 <p>Privacy Policy</p>
                 <p>Terms of Service</p>
             </div>
+        </div>
     </section>
 
     <footer class="pt-[40px]">
