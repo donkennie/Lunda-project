@@ -12,15 +12,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <title>Lunda</title>
 </head>
-<body>
+<body class="w-full flex flex-col content-center relative">
     <div class="h-screen bg-[#301A00]">
     <header class="relative container m-auto w-full flex flex-col">
     <nav class="flex items-center justify-between text-white mt-8">          
-               <div class="text-2xl sonsie-one-regular">
+               <div class="text-2xl pl-3 sonsie-one-regular">
                 Lunda
                </div>
         
-            <div class="md:flex space-x-4">
+            <div class="space-x-4 hidden md:block ">
                 <button class="border-[#FFA030] button-text rounded text-[#FFA030] ">
                     Contact Sales
                 </button>
@@ -30,15 +30,15 @@
                 </button>
             </div>
     </nav>
-         <div class="w-full flex xl:flex-row items-center pb-[100px]  min-h-screen justify-between max-container">
+         <div class="relative w-full flex flex-wrap md:flex-nowrap gap-20 sm:gap-20 md:text-start text-center items-center pb-[100px] min-h-screen md:justify-start justify-center">
             <div class="flex flex-col gap-7">
-                <p class="text-white text-5xl font-bold leading-[3.2rem]">
-                    Revitalize Your <br>
-                    Fabrics, Reclaim Your <br>
+                <p class="text-white text-5xl  lg:w-[30rem] pt-16 lg:pt-0 sm:w-[474px] w-[360px] md:text-start text-center font-bold leading-[3.2rem]">
+                    Revitalize Your 
+                    Fabrics, Reclaim Your
                     Time
                 </p>
 
-                <p class="text-[#DEDEDE] text-justify w-[400px] text-[14px] font-[190]">Embrace the ease of laundry care designed to complement your hectic schedule. 
+                <p class="text-[#DEDEDE] text-center md:text-start md:w-[400px]  font-[190]">Embrace the ease of laundry care designed to complement your hectic schedule. 
                     Our solutions are crafted to provide you with a stress-free experience, 
                     saving your time and effort.
                 </p>
@@ -62,7 +62,7 @@
          </div>
 </header>
 </div>
-  <div class="container m-auto flex flex-col">
+  <div class="container m-auto md:mt-0 mt-48 flex flex-col">
     <section class="relative flex items-center flex-col pt-20">
         <div class="text-[#1E1E1E] flex flex-col items-center space-y-3 ">
         <p class=" text-center font-[730] text-4xl">
@@ -78,16 +78,16 @@
     </section>
 
     <section class="container relative pt-10">
-        <div class="grid grid-flow-col justify-between normal-text ">
+        <div class="flex flex-wrap md:flex-nowrap pl-8 gap-10 justify-center normal-text ">
             <div class="">
                 <div class="absolute gap-10 mt-5 pl-7">
                     <button class=" text-[#1E1E1E] bg-white px-[8px] py-[4px] cursor-default font-[650] text-xs  rounded ">Discover</button>
-                    <div class="flex flex-col mt-[65%] gap-2 font-[450] text-sm ">
+                    <div class="flex flex-col lg:mt-[66%] md:mt-[45%] mt-[70%] ms:mt-[58%] gap-2 font-[450] text-sm ">
                     <p class="text-start text-white ">A new era of laundry where <br>convenience meets innovation.</p>
                     <div class="flex text-[#FFA030] gap-2 items-center">
                         <p class="font-[500] text-xs">Book Now</p>
 
-                        <svg width="20" height="20"  viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="30" height="20"  viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.43 6.43005L20.5 12.5001L14.43 18.5701" stroke="#FFA030" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M3.5 12.5H20.33" stroke="#FFA030" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -100,7 +100,7 @@
             <div class="">
                 <div class="absolute gap-10 mt-5 pl-7">
                     <button class=" text-[#1E1E1E] bg-white px-[8px] py-[4px] cursor-default font-[650] text-xs  rounded ">Seamless Laundry</button>
-                    <div class="flex flex-col mt-[65%] gap-2 font-[450] text-sm ">
+                    <div class="flex flex-col lg:mt-[66%] md:mt-[45%] mt-[70%] gap-2 font-[450] text-sm ">
                     <p class="text-start text-white ">A new era of laundry where <br>convenience meets innovation.</p>
                     <div class="flex text-[#FFA030] gap-2 items-center">
                         <p class="font-[500] text-xs">Book Now</p>
@@ -118,7 +118,7 @@
             <div class="">
                 <div class="absolute gap-10 mt-5 pl-7">
                     <button class=" text-[#1E1E1E] bg-white px-[8px] py-[4px] cursor-default font-[650] text-xs  rounded ">Discover</button>
-                    <div class="flex flex-col mt-[65%] gap-2 font-[450] text-sm ">
+                    <div class="flex flex-col lg:mt-[66%] md:mt-[45%] mt-[70%] gap-2 font-[450] text-sm ">
                     <p class="text-start text-white ">A new era of laundry where <br>convenience meets innovation.</p>
                     <div class="flex text-[#FFA030] gap-2 items-center">
                         <p class="font-[500] text-xs">Book Now</p>
@@ -137,25 +137,25 @@
         </div>
     </section>
 
-    <section class="relative pt-[100px]">
-        <div class="grid grid-flow-col items-center space-x-[120px] justify-center">
+    <section class="relative pt-[80px]">
+        <div class="flex flex-wrap gap-14 items-center justify-center">
             <div>
                 <img src="img/Rectangle 1 (3).png" alt="">
             </div>
 
 
-        <div class="flex flex-col gap-5 w-ful1 text-[#1E1E1E] normal-text">
-            <p class=" text-start font-[730] text-4xl">
-                Revolutionize Your Laundry <br>
+        <div class="flex flex-col justify-center gap-5 w-ful1 text-[#1E1E1E] normal-text">
+            <p class="text-center md:text-start font-[730] md:w-[75vh] text-4xl">
+                Revolutionize Your Laundry
                 Routine
             </p>
-            <p>
-                Elevate the standard of your laundry experience with our <br>
+            <p class="text-center md:text-start md:w-[400px] w-[355px] sm:w-[400px]">
+                Elevate the standard of your laundry experience with our
                 commitment to cutting-edge solutions.
             </p>
 
-            <div >
-                <ul class="flex flex-col gap-3">
+            <div class="flex lg:justify-start sm:justify-start justify-center gap-4">
+                <div class="flex flex-col justify-center gap-3">
                     <div class="flex-list">
                         <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="0.5" width="20" height="20" rx="6" fill="#FFEBD3"/>
@@ -184,34 +184,34 @@
                                 Unveiling the art of stain removal
                             </p>                       
                     </div>
-                </ul>
+                </div>
             </div>
         </div>
 
     </div>
     </section>
 
-    <section class="relative pt-[100px]">
-        <div class="grid grid-flow-col items-center space-x-[120px] justify-center">
+    <section class="relative pt-[80px]">
+        <div class="flex flex-wrap gap-14 items-center justify-center">
             <div class="flex flex-col gap-5 w-ful1 text-[#1E1E1E] normal-text">
-                <p class=" text-start font-[730] text-4xl">
-                    Revolutionize Your Laundry <br>
-                    Routine
+                <p class="text-center md:text-start font-[730] md:w-[81vh] text-4xl">
+                    Time-Saving Tips for Effortless Laundry Days
                 </p>
-                <p>
-                    Elevate the standard of your laundry experience with our <br>
-                    commitment to cutting-edge solutions.
+                <p class="text-center md:text-start md:w-[384px] w-[355px] sm:w-[400px]">
+                    Our streamlined processes and advanced technologies  are 
+                    strategically designed to save you time without sacrificing the meticulous 
+                    care your garments deserve.
                 </p>
     
-                <div >
-                    <ul class="flex flex-col gap-3">
+                <div class="flex lg:justify-start sm:justify-start justify-center gap-4">
+                    <div class="flex flex-col gap-3">
                         <div class="flex-list">
                             <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect y="0.5" width="20" height="20" rx="6" fill="#FFEBD3"/>
                                 <path d="M6 10.8301L8.83 13.6601L14.5 8.00012" stroke="#FFA030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 <p>
-                                    Tailored services for busy lives
+                                    Smart sorting strategies
                                 </p>
                         </div>
                         <div class="flex-list">
@@ -220,7 +220,7 @@
                                 <path d="M6 10.8301L8.83 13.6601L14.5 8.00012" stroke="#FFA030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 <p>
-                                    Fresh and flawless fabrics every time
+                                    Quick wash and dry cycles
                                 </p>  
                         </div>
     
@@ -230,10 +230,10 @@
                                 <path d="M6 10.8301L8.83 13.6601L14.5 8.00012" stroke="#FFA030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 <p>
-                                    Unveiling the art of stain removal
+                                    Strategic folding techniques
                                 </p>                       
                         </div>
-                    </ul>
+                    </div>
                 </div>
             </div>
 
@@ -243,33 +243,33 @@
         </div>
     </section>
 
-    <section class="container pt-[100px] grid grid-flow-col ">
-                <img src="img/Rectangle 10 (1).png" alt=""  width="185vh" height="100%">
-                <img src="img/Rectangle 9 (1).png" alt="" width="185vh" height="100%">
-                <img src="img/Rectangle 11 (1).png" alt="" width="185vh" height="100%">
-                <img src="img/Rectangle 12 (1).png" alt="" width="185vh" height="100%">
-                <img src="img/Rectangle 13.png" alt="" width="180vh" height="100%">
-                <img src="img/Rectangle 14.png" alt="" width="180vh" height="100%">
+    <section class="container pt-[80px] grid grid-flow-col ">
+                <img src="img/Rectangle 10 (1).png" alt="" width="185vh" height="100%" class="md:block hidden">
+                <img src="img/Rectangle 9 (1).png" alt="" width="185vh" height="100%" class="md:block hidden">
+                <img src="img/Rectangle 11 (1).png" alt=""width="185vh" height="100%">
+                <img src="img/Rectangle 12 (1).png" alt=""width="185vh" height="100%">
+                <img src="img/Rectangle 13.png" alt="" width="185vh" height="100%">
+                <img src="img/Rectangle 14.png" alt="" width="185vh" height="100%">
     </section>
 
-    <section class="relative pt-[100px]">
-        <div class="grid grid-flow-col items-center space-x-[120px] justify-center normal-text"> 
+    <section class="relative pt-[80px]">
+        <div class="flex flex-wrap items-center justify-center gap-9 md:gap-[7.5rem] normal-text"> 
             <div>
                 <img src="img/Rectangle 1 (2).png" alt="">
             </div>
 
             <div class="flex flex-col gap-5 w-ful1 text-[#1E1E1E]">
-                <p class=" text-start font-[730] text-4xl">
-                    Unveiling the Heart of Our <br>
+                <p class=" text-center md:text-start font-[730] md:w-[71vh] text-4xl">
+                    Unveiling the Heart of Our
                     Laundry Commitment
                 </p>
-                <p class="normal-text leading-7">
-                    At Lunda, we understand the importance of your <br>
-                    garments, and our mission is to provide expert care <br>
+                <p class="text-center md:text-start md:w-[384px] w-[355px] sm:w-[355px] leading-7">
+                    At Lunda, we understand the importance of your
+                    garments, and our mission is to provide expert care
                     tailored to your unique needs.
                 </p>
     
-                <div class="md:flex space-x-4">
+                <div class="flex justify-center md:justify-start md:flex space-x-4">
                     <button class=" bg-[#FFA030] text-white button-text border-none">
                         Book Now
                     </button>
@@ -284,14 +284,14 @@
 
     <section class="relative pt-[80px]">
         <div>
-            <p class=" text-start font-[730] text-4xl">
+            <p class="text-center md:text-start font-[730] md:w-[71vh] text-4xl">
                 Your Laundry, Our Passion
             </p>
 
-            <p class="normal-text pt-3">Dedicated to Excellence in Every Wash</p>
+            <p class="normal-text text-center md:text-start pt-3">Dedicated to Excellence in Every Wash</p>
         </div>
 
-        <div class="container flex flex-wrap md:flex-nowrap gap-8 justify-between items-center mt-10">
+        <div class="container flex flex-wrap md:flex-nowrap gap-8  justify-center mt-10">
            <div>
                <img src="img/image 6.png" alt="" class="rounded-md">
                <div class="flex flex-col gap-2 normal-text">
@@ -359,19 +359,19 @@
         </div>
     </section>
 
-    <section class="relative pt-[80px]">
-        <div class="grid md:grid-flow-col gap-4 sm:grid-flow-row items-center justify-between normal-text"> 
-        <div class="flex flex-col gap-5 text-[#1E1E1E]">
-            <p class=" text-start font-[730] text-4xl">
-                Get in Touch with Us for <br>
+    <section class="relative pt-[70px]">
+        <div class="flex sm:flex-nowrap flex-wrap justify-center md:justify-between normal-text"> 
+        <div class="flex flex-col gap-8 text-[#1E1E1E]">
+            <p class="text-center md:text-start font-[730] lg:w-[75vh] md:w-[32vh] text-4xl">
+                Get in Touch with Us for
                  Laundry Excellence
             </p>
-            <p class="normal-text leading-7">
-                Questions, Concerns, or Laundry Requests? Contact Our <br>
+            <p class="text-center md:text-start md:w-[384px] w-[355px] sm:w-[355px] leading-7">
+                Questions, Concerns, or Laundry Requests? Contact Our
                 Team for Prompt and Friendly Assistance.
             </p>
 
-            <div class="md:flex space-x-4">
+            <div class="flex justify-center space-x-4">
                 <button class=" bg-[#FFA030] text-white button-text border-none">
                     Book Now
                 </button>
@@ -382,7 +382,7 @@
             </div>
 
         </div>
-        <div class="relative bg-cover  " style="background-image: url('/img//Rectangle\ 1\ \(4\).png');">  // width: 65vh;
+        <div class="relative bg-cover md:mt-0 mt-7 md:w-[65vh]" style="background-image: url('/img//Rectangle\ 1\ \(4\).png'); ">  // width: 65vh;
             <div class="flex flex-col gap-2 items-center mt-7">
             <div class="">
                 <label class="text-white  font-[560] text-[11px]">Full Name</label>
@@ -394,10 +394,10 @@
             </div>
             <div>
                 <label class="text-white  font-[560] text-[11px]">Message</label>
-                <textarea type="email" class="w-full border mt-2 border-input-border bg-input px-7 py-[10px] h-[7rem] resize-none" placeholder="Type here..."></textarea>
+                <textarea type="email" class="w-full border mt-2 border-input-border bg-input px-10 py-[10px] h-[7rem] resize-none" placeholder="Type here..."></textarea>
             </div>
 
-            <button class=" bg-[#FFA030] border px-[30%] py-[10px] mt-3 mb-[40px] rounded text-[15px]  text-white border-none">
+            <button class=" bg-[#FFA030] border px-[40px] py-[10px] mt-3 mb-[40px] rounded text-[15px]  text-white border-none">
                 Send
             </button>
         </div>
@@ -406,12 +406,12 @@
     </section>
 
     <section class="text-white relative mt-[80px] w-full bg-[#1E1E1E]  rounded-[8px] ">   
-        <div class="p-[9vh] flex flex-col items-center space-y-6 pb-[70px]">
-           <p class="text-start font-[730] text-4xl">
+        <div class="p-[15vh] flex flex-col items-center space-y-6 pb-[70px]">
+           <p class="text-center md:text-start font-[730] md:w-[90vh] w-[46vh] text-4xl">
               Revitalize Your Wardrobe Today!
            </p> 
-           <p class="text-center">
-               Schedule a Pickup for Exceptional Laundry Care. Experience <br>
+           <p class="text-center  md:w-[436px] w-[355px] sm:w-[355px] leading-7">
+               Schedule a Pickup for Exceptional Laundry Care. Experience
                 the Freshness, Feel the Difference.
            </p>
 
@@ -422,14 +422,14 @@
 
     </section>
 
-    <section class="relative pt-[90px] sm:flex-row md:flex items-center gap-32">
-        <div class="flex flex-col gap-4">
+    <section class="relative pt-[90px] sm:flex-row md:flex items-center lg:gap-[5rem] sm:gap-0">
+        <div class="flex flex-col md:p-0 sm:p-0 pl-3 lg:gap-4 sm:gap-0">
             <div class="text-2xl sonsie-one-regular">
                 Lunda
             </div>
-            <p>Embrace the ease of laundry care designed to <br>
-                complement your hectic schedule. Our solutions are <br>
-                crafted to provide you with a stress-free experience, <br>
+            <p class="text-start md:w-[413px] w-[343px] sm:w-[355px] leading-7">Embrace the ease of laundry care designed to 
+                complement your hectic schedule. Our solutions are
+                crafted to provide you with a stress-free experience,
                 saving your time and effort.
             </p>
 
@@ -468,7 +468,7 @@
                     
             </div>
         </div>
-        <div class="flex flex-row lg:gap-32 md:gap-20 gap-14 md-min:gap-32 mt-12">
+        <div class="flex flex-row pl-3 lg:gap-32 gap-[12px]  md-min:gap-32 mt-12">
             <div class="">
                 <p class="font-bold">Features</p>
                 <p>Solutions</p>
