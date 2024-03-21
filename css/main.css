@@ -590,6 +590,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -1122,14 +1126,17 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .button-text {
@@ -1162,6 +1169,20 @@ video {
   color: rgb(30 30 30 / var(--tw-text-opacity));
 }
 
+.section{
+  transition: transform 1s, opacity 1s
+}
+
+/* .nav.sticky {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+  } */
+
+.section-hidden{
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 .sonsie-one-regular {
   font-family: "Sonsie One", system-ui;
   font-weight: 500;
@@ -1189,17 +1210,13 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html, body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-}
-
-.hover\:bg-blue-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 500px) {
