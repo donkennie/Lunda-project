@@ -686,10 +686,6 @@ video {
   width: 386px;
 }
 
-.w-\[394px\] {
-  width: 394px;
-}
-
 .w-\[403px\] {
   width: 403px;
 }
@@ -700,6 +696,10 @@ video {
 
 .w-\[405px\] {
   width: 405px;
+}
+
+.w-\[410px\] {
+  width: 410px;
 }
 
 .w-\[46vh\] {
